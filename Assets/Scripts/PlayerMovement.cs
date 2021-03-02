@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         // 리지드바디를 이용해 게임 오브젝트 위치 변경
         playerRigidbody.MovePosition(playerRigidbody.position + moveDistance);
         // transform.position = transform.position + moveDistance;
-        // 같은 방식이지 사용하지 않는 이유는
+        // 같은 방식이지만 사용하지 않는 이유는
         // 트랜스폼의 위칫값을 직접 변경하면 물리 처리를 무시하고
         // 위치를 덮어쓰기 때문
         // 벽을 무시하고 벽 반대쪽으로 이동할 수 있다.
